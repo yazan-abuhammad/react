@@ -9,6 +9,7 @@ import FormExample from './pages/FormExample';
 import Counter from './pages/Counter';
 import SignupForm from './pages/SignupForm';
 import Calculator from './pages/Calculator';
+import TodoList from './pages/TodoList';
 
 
 import { createRoot } from "react-dom/client";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <AboutPage/>,
+  },
+  {
+    path: "/TodoList",
+    element: <TodoList/>,
   },
   {
     path: "/Calculator",
